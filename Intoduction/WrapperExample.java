@@ -1,4 +1,4 @@
-package Chapter1.Intro;
+package Intoduction;
 
 public class WrapperExample {
     public static void main(String[] args) {
