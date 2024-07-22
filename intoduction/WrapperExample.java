@@ -1,4 +1,4 @@
-package Intoduction;
+package intoduction;
 
 public class WrapperExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ObjectDemo;
+package objectDemo;
 
 public class ObjectDemo extends Object {
     public ObjectDemo() {

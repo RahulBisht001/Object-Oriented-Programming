@@ -1,4 +1,4 @@
-package Intoduction;
+package intoduction;
 
 import java.util.Arrays;
 
