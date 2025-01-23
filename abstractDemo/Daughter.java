@@ -1,9 +1,16 @@
 package abstractDemo;
 
 public class Daughter extends Parent {
+//    long wealth;
     Daughter(long wealth) {
         this.wealth = wealth;
     }
+
+//    Daughter(long wealth) {
+////        this.wealth = wealth;
+//        super(wealth);
+//    }
+
 
     @Override
     void career(String name) {

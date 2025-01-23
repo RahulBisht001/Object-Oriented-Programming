@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Car implements Brake {
+public class Car implements Brake , Media{
 
     final static int a = 23;
 
@@ -9,5 +9,13 @@ public class Car implements Brake {
         System.out.println("It brakes like a normal car");
     }
 
+    @Override
+    public void start() {
 
+    }
+
+    @Override
+    public void stop() {
+
+    }
 }

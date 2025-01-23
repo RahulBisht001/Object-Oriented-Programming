@@ -3,11 +3,18 @@ package abstractDemo;
 public class Main {
     public static void main(String[] args) {
 
-//        Son son = new Son(100000000000000l);
-//        son.career("Entrepreneur");
-//
+        Son son = new Son(100000000000000l);
+        son.career("Entrepreneur");
+
+        Parent p = new Son(22442);
+////
 //        son.info();
 //        System.out.println(son.wealth);
+        System.out.println(p.wealth);
+//
+//        Daughter d = new Daughter(24232142);
+//        d.info();
+//        System.out.println(d.wealth);
 
         /**
          * Important concept in SubClass
@@ -31,29 +38,32 @@ public class Main {
          * then we need to write the implementation of abstract methods
          * as we are doing here.
          */
-        Parent maa = new Parent() {
-            @Override
-            void career(String name) {
-                System.out.println("I am a" + name);
-            }
-
-            @Override
-            void partner(String name, int age) {
-
-            }
-        };
-
+//        Parent maa = new Parent() {
+//            @Override
+//            void career(String name) {
+//                System.out.println("I am a" + name);
+//            }
+//
+//            @Override
+//            void partner(String name, int age) {
+//
+//            }
+//        };
+//
 //        System.out.println(maa.wealth);
-////        maa.info();
+//        maa.info();
 //        maa.career("Housewife");
 //
-////        Son.info();
-//
+//        Son.info();
+
 //        Parent p = new Son(335342);
 //        p.career("Soldier");
+//
+//        Parent.hello();
+//        Son.hello();
 
-        Parent.hello();
-        Son.hello();
+        Son s = new Son(4244);
+        s.info();
 
     }
 }

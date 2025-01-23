@@ -13,6 +13,10 @@ public class Main {
 //        Media carMedia = new Car();
 //        carMedia.start();
 
+        Media.working();
+
+        Media car_M =  new Car();
+
         NiceCar nc = new NiceCar();
         nc.start();
     }

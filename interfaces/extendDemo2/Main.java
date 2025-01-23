@@ -6,6 +6,10 @@ public class Main implements B {
     public void greet() {
 
     }
+    @Override
+    public void fun() {
+
+    }
 
     public static void main(String[] args) {
 
